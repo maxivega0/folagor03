@@ -1,15 +1,39 @@
+*{ 
+  scroll-behavior: smooth;  
+}
+
 .animacionError {
-    div {
-        width: 100px;
-        height: 50px;
-        position: relative;
-        animation: error404 5s infinite alternate 2s;
-        animation-direction: left to right;
-        animation-play-state: running;
-    }
-    #vuelaMariposa {animation-timing-function: ease-in;}
+    width: 100px;
+    height: 50px;
+    position: relative;
+    animation: error404 4s 3 alternate-reverse 1s;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+}
+
+#vuelaMariposa {
+    animation-timing-function: ease-in;
+}
+
 @keyframes error404 {
-from {left: 0px;}
-to {right: 300px;}
-}
-}
+        from {
+            margin-left: 100%;
+        }
+        to {
+            margin-right: 50%;
+        }
+    }
+
+    .videoError {
+        animation: videoRespirar;
+        animation-fill-mode: forwards;
+        animation-delay: 20s;
+    }
+    @keyframes videoRespirar {
+        from {
+            bottom: 0%;
+        }
+        to {
+            top: 50%;
+        }
+    }

@@ -28,22 +28,40 @@
                     <a href="./index.html" class="nav-link active navbar-item text-decoration-none mx-2">Inicio</a>
                 </li>
                 <li>
-                    <a href="#" class="nav-link dropdown-toggle navbar-item text-decoration-none mx-2" role="button"
+                    <a href="./error404.html" class="nav-link dropdown-toggle navbar-item text-decoration-none mx-2" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false">Categorías</a>
                 </li>
             </ul>
         </div>
+        <form class="d-flex me-1 inputdeBusqueda" role="search">
+            <input
+              class="form-control"
+              type="search"
+              placeholder="Buscar"
+              aria-label="search"
+            />
+            <button
+              class="btn btnNavbar btn-outline-danger text-white fw-bold"
+              type="submit"
+            >
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
     </nav>
     </header>
     <main>
         <section class="container-fluid justify-content-center">
-            <article>
-                <div class="animacionError" id="vuelaMariposa">
-                <p>Error 404</p>
-                    <img src="../img/butterfree.png" alt="Mariposa Butterfree Pokemon">
-                </div>
+            <div class="animacionError" id="vuelaMariposa">
+            <article class="mx-4">
+                <img src="../img/butterfree.png" alt="Mariposa Butterfree Pokemon">
+            </div>
+            <h1 class="text-center">Error 404</h1>
             </article>
-            <article class="align-content-center">
+            <article class="text-center">
+                <p>La página que estás buscando no se encuentra disponible.</p> <br>
+                <p>Mientras tanto, ¿porqué no te tomas un respiro? </p>
+            </article>
+            <article class="align-content-center videoError">
             <iframe class="w-100" height="315" src="https://www.youtube.com/embed/PUk5KZm_0cY?start=1&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </article>
         </section>
