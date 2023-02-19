@@ -1,0 +1,15 @@
+.animacionError {
+    div {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        animation: error404 5s infinite alternate 2s;
+        animation-direction: left to right;
+        animation-play-state: running;
+    }
+    #vuelaMariposa {animation-timing-function: ease-in;}
+@keyframes error404 {
+from {left: 0px;}
+to {right: 300px;}
+}
+}
