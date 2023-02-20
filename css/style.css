@@ -2,6 +2,12 @@
   scroll-behavior: smooth;  
 }
 
+navbar li {
+    {
+        font: #212529;
+    }
+}
+
 :root{
     --anchura-card-index: 250px;
   --normal-light: #A8A878;
