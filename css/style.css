@@ -153,4 +153,22 @@ navbar li {
   to {
     margin-right: 50%;
   }
+}ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+.backgraundBotonesNav{
+    background-color: white;
+}
+.carrousel{
+    height: 700px;
+    object-fit: cover;
+padding: 20px;
+}
+
+.numeropokemon{
+    color: grey;
+    vertical-align: baseline;
 }
