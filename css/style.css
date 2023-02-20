@@ -159,6 +159,7 @@ navbar li {
 
 }
 
+
 .backgraundBotonesNav{
     background-color: white;
 }
@@ -171,4 +172,7 @@ padding: 20px;
 .numeropokemon{
     color: grey;
     vertical-align: baseline;
+}
+.tam{
+min-width: 100%;
 }
