@@ -1,3 +1,6 @@
+*{ 
+  scroll-behavior: smooth;  
+}
 
 :root{
     --anchura-card-index: 250px;
@@ -31,6 +34,11 @@
   --fantasma-dark: #493963;
   --dragon-light: #7038F8;
   --dragon-dark: #4924A1;
+}
+
+
+#vuelaMariposa {
+    animation-timing-function: ease-in;
 }
 
 #pokedexcarousel .carousel-item img{
@@ -126,3 +134,20 @@
 .card{
     width: var(--anchura-card-index);
 }
+.animacionError {
+    width: 100px;
+    height: 50px;
+    position: relative;
+    animation: error404 4s 3 alternate-reverse 1s;
+    animation-play-state: running;
+    animation-timing-function: ease-in;
+}
+
+@keyframes error404 {
+        from {
+            margin-left: 100%;
+        }
+        to {
+            margin-right: 50%;
+        }
+    }
