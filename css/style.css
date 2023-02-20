@@ -1,3 +1,38 @@
+
+:root{
+    
+  --normal-light: #A8A878;
+  --normal-dark: #6D6D4E;
+  --fuego-light: #F08030;
+  --fuego-dark: #9C531F;
+  --agua-light: #6890F0;
+  --agua-dark: #445E9C;
+  --electrico-light: #F8D030;
+  --electrico-dark: #A1871F;
+  --planta-light: #78C850;
+  --planta-dark: #4E8234;
+  --hielo-light: #98D8D8;
+  --hielo-dark: #638D8D;
+  --lucha-light: #C03028;
+  --lucha-dark: #7D1F1A;
+  --veneno-light: #A040A0;
+  --veneno-dark: #682A68;
+  --tierra-light: #E0C068;
+  --tierra-dark: #927D44;
+  --volador-light: #A890F0;
+  --volador-dark: #6D5E9C;
+  --pisquico-light: #F85888;
+  --pisquico-dark: #A13959;
+  --bicho-light: #A8B820;
+  --bicho-dark: #6D7815;
+  --roca-light: #B8A038;
+  --roca-dark: #786824;
+  --fantasma-light: #705898;
+  --fantasma-dark: #493963;
+  --dragon-light: #7038F8;
+  --dragon-dark: #4924A1;
+}
+
 #pokedexcarousel .carousel-item img{
     object-fit: cover;
     object-position:center;
@@ -11,4 +46,79 @@
    
 .carousel-control-next-icon {
  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.tipo{
+    border: 2px solid #000;
+	border-radius: 20px;
+	padding: 2px 10px;
+	color: #fff;
+    font-size: 12px;
+    font-weight:600;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.planta{
+    background-color: var(--planta-light);
+    border-color: var(--planta-dark);
+}
+.fuego{
+    background-color: var(--fuego-light);
+    border-color: var(--fuego-dark);
+}
+.agua{
+    background-color: var(--agua-light);
+    border-color: var(--agua-dark);
+}
+.electrico{
+    background-color: var(--electrico-light);
+    border-color: var(--electrico-dark);
+}
+.planta{
+    background-color: var(--planta-light);
+    border-color: var(--planta-dark);
+}
+.hielo{
+    background-color: var(--hielo-light);
+    border-color: var(--hielo-dark);
+}
+.lucha{
+    background-color: var(--lucha-light);
+    border-color: var(--lucha-dark);
+}
+.veneno{
+    background-color: var(--veneno-light);
+    border-color: var(--veneno-dark);
+}
+.tierra{
+    background-color: var(--tierra-light);
+    border-color: var(--tierra-dark);
+}
+.volador{
+    background-color: var(--volador-light);
+    border-color: var(--volador-dark);
+}
+.psiquico{
+    background-color: var(--psiquico-light);
+    border-color: var(--psiquico-dark);
+}
+.bicho{
+    background-color: var(--bicho-light);
+    border-color: var(--bicho-dark);
+}
+.roca{
+    background-color: var(--roca-light);
+    border-color: var(--roca-dark);
+}
+.fantasma{
+    background-color: var(--fantasma-light);
+    border-color: var(--fantasma-dark);
+}
+.dragon{
+    background-color: var(--dragon-light);
+    border-color: var(--dragon-dark);
 }
