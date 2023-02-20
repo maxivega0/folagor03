@@ -1,6 +1,6 @@
 
 :root{
-    
+    --anchura-card-index: 250px;
   --normal-light: #A8A878;
   --normal-dark: #6D6D4E;
   --fuego-light: #F08030;
@@ -121,4 +121,8 @@
 .dragon{
     background-color: var(--dragon-light);
     border-color: var(--dragon-dark);
+}
+
+.card{
+    width: var(--anchura-card-index);
 }
