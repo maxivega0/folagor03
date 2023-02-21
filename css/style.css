@@ -160,15 +160,6 @@ nav li {
 }
 
 
-.backgraundBotonesNav{
-    background-color: white;
-}
-.carrousel{
-    height: 700px;
-    object-fit: cover;
-padding: 20px;
-}
-
 .numeropokemon{
     color: grey;
     vertical-align: baseline;
@@ -176,3 +167,62 @@ padding: 20px;
 .tam{
 min-width: 100%;
 }
+
+.Slider {
+  height: 400px;
+}
+.colorVerde{
+  background-color: #9DCE5A;
+}
+.colorVioleta{
+  background-color: #CEA7DA;
+}
+.colorNaranja{
+  background-color: #FD7D24;
+}
+
+.marginmain {
+  margin-top: 200px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fsButton {
+  font-size: 10px;
+  border-radius: 30px;
+  width: 50px;
+  height: 13px;
+}
+
+.txtbutton {
+  position: relative;
+  bottom: 7px;
+  right: 3px;
+  
+}
+
+.leftbutton {
+
+  background-color: rgb(96, 155, 96);
+  color: white;
+  
+}
+
+.rigthbutton {
+  background-color: rgb(221, 140, 153);
+  color: white;
+  
+}
+
+@media all and (max-width: 900px) { 
+
+.Columnbulbasmall {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+  
+} 
