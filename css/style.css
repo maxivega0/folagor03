@@ -50,6 +50,25 @@
   width: 100% !important;
   overflow: hidden;
 }
+
+#contenedor-acercade {
+    background-image: url("./../img/acercade/pokedex-fondo.jpg");
+}
+#contenedor-acercade img {
+    border: 5px solid #000;
+    border-radius: 20px;
+}
+#contenedor-acercade {
+    font-family: 'Changa One', cursive;font-size: large;
+    color: #FFDE00;
+    text-shadow: 3px 0 #3B4CCA, -3px 0 #3B4CCA, 0 3px #3B4CCA, 
+    0 -3px #3B4CCA,2px 2px #3B4CCA, -2px -2px #3B4CCA, 2px -2px #3B4CCA, -2px 2px #3B4CCA;
+}
+#contenedor-acercade h2 {
+    font-family: 'Pokemon Solid', sans-serif;
+    font-size: 30px;
+}
+
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
