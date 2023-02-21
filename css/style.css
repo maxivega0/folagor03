@@ -4,6 +4,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Changa+One&display=swap");
 @import url("https://fonts.cdnfonts.com/css/pokemon-solid");
+navbar li {
+       font: #212529;
+  }
 
 :root {
   --anchura-card-index: 250px;
@@ -64,6 +67,14 @@
   color: #ffde00;
   text-shadow: 3px 0 #3b4cca, -3px 0 #3b4cca, 0 3px #3b4cca, 0 -3px #3b4cca,
     2px 2px #3b4cca, -2px -2px #3b4cca, 2px -2px #3b4cca, -2px 2px #3b4cca;
+}
+
+#pokedexcarousel .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  width: 100% !important;
+  overflow: hidden;
 }
 #contenedor-acercade h2 {
   font-family: "Pokemon Solid", sans-serif;
@@ -160,7 +171,7 @@
   width: 100px;
   height: 50px;
   position: relative;
-  animation: error404 4s 3 alternate-reverse 1s;
+  animation: error404 5s 1 alternate-reverse 1s;
   animation-play-state: running;
   animation-timing-function: ease-in;
 }
@@ -172,4 +183,27 @@
   to {
     margin-right: 50%;
   }
+}
+}ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+
+.backgraundBotonesNav{
+    background-color: white;
+}
+.carrousel{
+    height: 700px;
+    object-fit: cover;
+padding: 20px;
+}
+
+.numeropokemon{
+    color: grey;
+    vertical-align: baseline;
+}
+.tam{
+min-width: 100%;
 }
