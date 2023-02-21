@@ -1,0 +1,228 @@
+* {
+  scroll-behavior: smooth;
+}
+
+navbar li {
+       font: #212529;
+  }
+
+:root {
+  --anchura-card-index: 250px;
+  --normal-light: #a8a878;
+  --normal-dark: #6d6d4e;
+  --fuego-light: #f08030;
+  --fuego-dark: #9c531f;
+  --agua-light: #6890f0;
+  --agua-dark: #445e9c;
+  --electrico-light: #f8d030;
+  --electrico-dark: #a1871f;
+  --planta-light: #78c850;
+  --planta-dark: #4e8234;
+  --hielo-light: #98d8d8;
+  --hielo-dark: #638d8d;
+  --lucha-light: #c03028;
+  --lucha-dark: #7d1f1a;
+  --veneno-light: #a040a0;
+  --veneno-dark: #682a68;
+  --tierra-light: #e0c068;
+  --tierra-dark: #927d44;
+  --volador-light: #a890f0;
+  --volador-dark: #6d5e9c;
+  --pisquico-light: #f85888;
+  --pisquico-dark: #a13959;
+  --bicho-light: #a8b820;
+  --bicho-dark: #6d7815;
+  --roca-light: #b8a038;
+  --roca-dark: #786824;
+  --fantasma-light: #705898;
+  --fantasma-dark: #493963;
+  --dragon-light: #7038f8;
+  --dragon-dark: #4924a1;
+}
+
+#vuelaMariposa {
+  animation-timing-function: ease-in;
+}
+
+#pokedexcarousel .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  height: 30vh;
+  width: 100% !important;
+  overflow: hidden;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.tipo {
+  border: 2px solid #000;
+  border-radius: 20px;
+  padding: 2px 10px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.planta {
+  background-color: var(--planta-light);
+  border-color: var(--planta-dark);
+}
+.fuego {
+  background-color: var(--fuego-light);
+  border-color: var(--fuego-dark);
+}
+.agua {
+  background-color: var(--agua-light);
+  border-color: var(--agua-dark);
+}
+.electrico {
+  background-color: var(--electrico-light);
+  border-color: var(--electrico-dark);
+}
+.planta {
+  background-color: var(--planta-light);
+  border-color: var(--planta-dark);
+}
+.hielo {
+  background-color: var(--hielo-light);
+  border-color: var(--hielo-dark);
+}
+.lucha {
+  background-color: var(--lucha-light);
+  border-color: var(--lucha-dark);
+}
+.veneno {
+  background-color: var(--veneno-light);
+  border-color: var(--veneno-dark);
+}
+.tierra {
+  background-color: var(--tierra-light);
+  border-color: var(--tierra-dark);
+}
+.volador {
+  background-color: var(--volador-light);
+  border-color: var(--volador-dark);
+}
+.psiquico {
+  background-color: var(--psiquico-light);
+  border-color: var(--psiquico-dark);
+}
+.bicho {
+  background-color: var(--bicho-light);
+  border-color: var(--bicho-dark);
+}
+.roca {
+  background-color: var(--roca-light);
+  border-color: var(--roca-dark);
+}
+.fantasma {
+  background-color: var(--fantasma-light);
+  border-color: var(--fantasma-dark);
+}
+.dragon {
+  background-color: var(--dragon-light);
+  border-color: var(--dragon-dark);
+}
+
+.card {
+  width: var(--anchura-card-index);
+}
+.animacionError {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  animation: error404 5s 1 alternate-reverse 1s;
+  animation-play-state: running;
+  animation-timing-function: ease-in;
+}
+
+@keyframes error404 {
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-right: 50%;
+  }
+}ul{
+    list-style: none;
+    padding: 0;
+
+}
+
+
+.numeropokemon{
+    color: grey;
+    vertical-align: baseline;
+}
+.tam{
+min-width: 100%;
+}
+
+.Slider {
+  height: 400px;
+}
+.colorVerde{
+  background-color: #9DCE5A;
+}
+.colorVioleta{
+  background-color: #CEA7DA;
+}
+.colorNaranja{
+  background-color: #FD7D24;
+}
+
+.marginmain {
+  margin-top: 200px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.fsButton {
+  font-size: 10px;
+  border-radius: 30px;
+  width: 50px;
+  height: 13px;
+}
+
+.txtbutton {
+  position: relative;
+  bottom: 7px;
+  right: 3px;
+  
+}
+
+.leftbutton {
+
+  background-color: rgb(96, 155, 96);
+  color: white;
+  
+}
+
+.rigthbutton {
+  background-color: rgb(221, 140, 153);
+  color: white;
+  
+}
+
+@media all and (max-width: 900px) { 
+
+.Columnbulbasmall {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+  
+} 
