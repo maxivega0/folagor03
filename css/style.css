@@ -82,7 +82,9 @@ navbar li {
   font-family: "Pokemon Solid", sans-serif;
   font-size: 30px;
 }
-
+.active{
+  text-shadow: 1px 0 #ffde00;
+}
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
 }
@@ -259,3 +261,13 @@ li {
 }
   
 } 
+
+.evolucionBg{
+background-color: #e5e5f7;
+background: repeating-linear-gradient( -45deg, #606068, #4f4f57 5px, #38383d 5px, #2d2d33 25px );
+}
+.detalleBg{
+  background-color: #55a6a4;
+  background-image: radial-gradient(circle at center center, #4bd2ff, #55a6a4), repeating-radial-gradient(circle at center center, #4bd2ff, #4bd2ff, 4px, transparent 8px, transparent 4px);
+  background-blend-mode: multiply;
+}
