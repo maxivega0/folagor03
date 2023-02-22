@@ -24,81 +24,93 @@
     <link rel="stylesheet" href="../css/style.css" />
     <title>Proyecto Pokemon</title>
   </head>
-<body>
-  <header>
-    <nav
-      class="navbar navbar-expand-lg navbar-expand-sm bg-danger container-fluid"
-    >
-      <div class="text-white p-4">
-        <a
-          href="../index.html"
-          class="navbar-brand navbar-item text-decoration-none text-white fs-3 mx-2"
-          >Pokedex</a
-        >
-      </div>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll"
-        aria-label="toggle navigation"
+  <body>
+    <header>
+      <nav
+        class="navbar navbar-expand-lg navbar-expand-sm bg-danger container-fluid"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav navbar-nav-scroll me-auto my-2 my-lg-0">
-          <li>
-            <a
-              href="../index.html"
-              class="nav-link navbar-item text-decoration-none mx-2 text-light"
-              >Inicio</a
-            >
-          </li>
-          <li>
-            <a
-              href="./acercade.html"
-              class="nav-link active navbar-item text-decoration-none mx-2 text-light"
-              >Sobre nosotros</a
-            >
-          </li>
-          <li>
-            <a
-              href="./../pages/error404.html"
-              class="nav-link navbar-item text-decoration-none mx-2 text-light"
-              role="button"
-              >Categorías</a
-            >
-          </li>
-        </ul>
-      </div>
-      <form class="d-flex me-1 inputdeBusqueda" role="search">
-        <input
-          class="form-control"
-          type="search"
-          placeholder="Buscar"
-          aria-label="search"
-        />
+        <div class="text-white p-4">
+          <a
+            href="../index.html"
+            class="navbar-brand navbar-item text-decoration-none text-white fs-3 mx-2"
+            >Pokedex</a
+          >
+        </div>
         <button
-          class="btn btnNavbar btn-outline-danger text-white fw-bold"
-          type="submit"
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-label="toggle navigation"
         >
-          <i class="bi bi-search"></i>
+          <span class="navbar-toggler-icon"></span>
         </button>
-      </form>
-    </nav>
-  </header>
-  <main class="container">
-    <section class="container row my-4 p-3 m-auto card tam">
-      <article class="d-flex justify-content-center">
-        <h2>Charmander</h2><h2 class="text-secondary px-2"> N°.004 </h2>
-      </article>
-      <article class="row align-items-center justify-content-center">
-        <aside class="col-12 col-md-5 col-lg-5 text-center">
-          <img src="../img/charmander.png" alt="Imagen sobre charmander" class="w-75">
-        </aside>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav navbar-nav-scroll me-auto my-2 my-lg-0">
+            <li>
+              <a
+                href="../index.html"
+                class="nav-link navbar-item text-decoration-none mx-2 text-light"
+                >Inicio</a
+              >
+            </li>
+            <li>
+              <a
+                href="./acercade.html"
+                class="nav-link active navbar-item text-decoration-none mx-2 text-light"
+                >Sobre nosotros</a
+              >
+            </li>
+            <li>
+              <a
+                href="./../pages/error404.html"
+                class="nav-link navbar-item text-decoration-none mx-2 text-light"
+                role="button"
+                >Categorías</a
+              >
+            </li>
+          </ul>
+        </div>
+        <form class="d-flex me-1 inputdeBusqueda" role="search">
+          <input
+            class="form-control"
+            type="text"
+            placeholder='"Missigno"'
+            aria-label="search"
+            pattern="[a-zA-Z]+"
+            required
+            minlength="3"
+            maxlength="15"
+          />
+          <button
+            class="btn btnNavbar btn-outline-danger text-white fw-bold"
+            type="submit"
+          >
+            <i class="bi bi-search"></i>
+          </button>
+        </form>
+      </nav>
+    </header>
+    <main class="container">
+      <section class="container row my-4 p-3 m-auto card tam">
+        <article class="d-flex justify-content-center">
+          <h2>Charmander</h2>
+          <h2 class="text-secondary px-2">N°.004</h2>
+        </article>
+        <article class="row align-items-center justify-content-center">
+          <aside class="col-12 col-md-5 col-lg-5 text-center">
+            <img
+              src="../img/charmander.png"
+              alt="Imagen sobre charmander"
+              class="w-75"
+            />
+          </aside>
           <aside class="col-12 col-md-7 col-lg-7 text-center text-md-start">
-            <p>Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor de la punta de la cola.</p>
+            <p>
+              Prefiere las cosas calientes. Dicen que cuando llueve le sale
+              vapor de la punta de la cola.
+            </p>
             <div class="row detalleBg text-light p-2 m-2 rounded text-white">
               <h3>Caracteristicas</h3>
               <div class="col-6 col-md-5 col-lg-5">
@@ -107,7 +119,10 @@
                 <h6>Peso</h6>
                 <p class="text-black fw-semibold">8,5 kg</p>
                 <h6>Género</h6>
-                <p class="text-black fs-3  fw-semibold"><i class="bi bi-gender-female"></i> <i class="bi bi-gender-male"></i></p>
+                <p class="text-black fs-3 fw-semibold">
+                  <i class="bi bi-gender-female"></i>
+                  <i class="bi bi-gender-male"></i>
+                </p>
               </div>
               <div class="col-6 col-md-7 col-lg-7">
                 <h6>Categoria</h6>
@@ -122,21 +137,26 @@
             <div class="badge agua text-wrap">Agua</div>
             <div class="badge tierra text-wrap">Tierra</div>
             <div class="badge roca text-wrap">Roca</div>
-
           </aside>
         </article>
-    </section>
-    <section class="container mb-4">
+      </section>
+      <section class="container mb-4">
         <article class="evolucionBg border rounded rounded-5 p-4 text-light">
           <h3 class="fs-5 fw-bold">Evoluciones</h3>
           <aside class="">
             <ul class="d-flex flex-row justify-content-around Columnbulbasmall">
               <li class="text-center">
                 <div class="border border-white rounded-circle border-5">
-                  <img class="img-fluid" src="../img/charmander.png" alt="Bulba1" />
+                  <img
+                    class="img-fluid"
+                    src="../img/charmander.png"
+                    alt="Bulba1"
+                  />
                 </div>
                 <p class="mb-0"><strong>Charmander</strong> N.º004</p>
-                <button class="btn btn-outline fuego text-light mb-5 mt-0 fsButton">
+                <button
+                  class="btn btn-outline fuego text-light mb-5 mt-0 fsButton"
+                >
                   <p class="txtbutton">Fuego</p>
                 </button>
               </li>
@@ -147,10 +167,16 @@
               </li>
               <li class="text-center">
                 <div class="border border-white rounded-circle border-5">
-                  <img class="img-fluid" src="../img/charmeleon.png" alt="Bulba1" />
+                  <img
+                    class="img-fluid"
+                    src="../img/charmeleon.png"
+                    alt="Bulba1"
+                  />
                 </div>
                 <p class="mb-0"><strong>Charmeleon</strong> N.º005</p>
-                <button class="btn btn-outline fuego text-light mb-5 mt-0 fsButton">
+                <button
+                  class="btn btn-outline fuego text-light mb-5 mt-0 fsButton"
+                >
                   <p class="txtbutton">Fuego</p>
                 </button>
               </li>
@@ -161,26 +187,38 @@
               </li>
               <li class="text-center">
                 <div class="border border-white rounded-circle border-5">
-                  <img class="img-fluid" src="../img/charizard.png" alt="Bulba3" />
+                  <img
+                    class="img-fluid"
+                    src="../img/charizard.png"
+                    alt="Bulba3"
+                  />
                 </div>
                 <p class="mb-0"><strong>Charizard</strong> N.º006</p>
-                <button class="btn btn-outline fuego text-light mb-5 mt-0 fsButton">
+                <button
+                  class="btn btn-outline fuego text-light mb-5 mt-0 fsButton"
+                >
                   <p class="txtbutton">Fuego</p>
                 </button>
-                <button class="btn btn-outline volador text-light mb-5 mt-0 fsButton">
+                <button
+                  class="btn btn-outline volador text-light mb-5 mt-0 fsButton"
+                >
                   <p class="txtbutton">Volador</p>
                 </button>
               </li>
             </ul>
           </aside>
         </article>
-    </section>
-  </main>
-  <footer class="bg-dark p-3 py-4">
-    <p class="text-center text-secondary">
-      &copy; Todos los derechos reservados.
-    </p>
-  </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+      </section>
+    </main>
+    <footer class="bg-dark p-3 py-4">
+      <p class="text-center text-secondary">
+        &copy; Todos los derechos reservados.
+      </p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
