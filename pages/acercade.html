@@ -84,9 +84,13 @@
         <form class="d-flex me-1 inputdeBusqueda" role="search">
           <input
             class="form-control"
-            type="search"
-            placeholder="Buscar"
+            type="text"
+            placeholder='"Missigno"'
             aria-label="search"
+            pattern="[a-zA-Z]+"
+            required
+            minlength="3"
+            maxlength="15"
           />
           <button
             class="btn btnNavbar btn-outline-danger text-white fw-bold"
