@@ -29,13 +29,13 @@
         <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav navbar-nav-scroll me-auto my-2 my-lg-0">
                 <li>
-                    <a href="../index.html" class="nav-link active navbar-item text-decoration-none mx-2 text-light">Inicio</a>
+                    <a href="../index.html" class="nav-link navbar-item text-decoration-none mx-2 text-light">Inicio</a>
                 </li>
                 <li>
-                    <a href="./acercade.html" class="nav-link active navbar-item text-decoration-none mx-2 text-light">Sobre nosotros</a>
+                    <a href="./acercade.html" class="nav-link navbar-item text-decoration-none mx-2 text-light">Sobre nosotros</a>
                   </li>
                 <li>
-                    <a href="./error404.html" class="nav-link navbar-item text-decoration-none mx-2 text-light" role="button">Categorías</a>
+                    <a href="./error404.html" class="nav-link active navbar-item text-decoration-none mx-2 text-light" role="button">Categorías</a>
                 </li>
             </ul>
         </div>
@@ -72,54 +72,60 @@
             </article>
     <article class="col-12 col-md-7 col-lg-7">
     <p> Este Pokémon nace con una semilla en el lomo, que brota con el paso del tiempo.</p>
-    <div class="row bg-primary m-2 rounded text-white">
+    <div class="row detalleBgPlanta m-2 rounded text-white">
       <H5 class="py-2" >Version</H5>
       <article class="col-6 col-md-5 col-lg-5 text-white ">
-    <p>Altura</p>
-    <p>0.7m</p>
-    <p>Peso</p>
-    <p>6.9 Kg</p>
-    <div class="pb-3">
-    <i class="bi bi-gender-male"></i>
-    <i class="bi bi-gender-female"></i>
-    </div>
+        <h6>Altura</h6>
+        <p class="text-black fw-semibold">0,7 m</p>
+        <h6>Peso</h6>
+        <p class="text-black fw-semibold">6,9 kg</p>
+        <h6>Género</h6>
+        <p class="text-black fs-3 fw-semibold">
+          <i class="bi bi-gender-female"></i>
+          <i class="bi bi-gender-male"></i>
+        </p>
       </article>
       <article class="col-6 col-md-7 col-lg-7 text-white" >
-    <p>Categoria</p>
-    <p>Semilla</p>
-    <p>Habilidad </p>
-    <p>Espesura</p>
+        <h6>Categoria</h6>
+        <p class="text-black fw-semibold">Semilla</p>
+        <h6>Habilidad</h6>
+        <p class="text-black fw-semibold">Espesura</p>
       </article>
     </div>
     <h5>Tipo</h5>
-    <div class="badge bg-success text-wrap" style="width: 100">
+    <div class="badge planta text-wrap" style="width: 100">
       Planta
     </div>
-    <div class="badge bg-warning text-wrap" style="width: 100">
+    <div class="badge veneno text-wrap" style="width: 100">
       Veneno
     </div>
-    <h5>Devilidad</h5>
-    <div class="badge bg-danger text-wrap" style="width: 100">
+    <h5>Debilidad</h5>
+    <div class="badge fuego text-wrap" style="width: 100">
      Fuego
     </div>
-    <div class="badge bg-info text-wrap" style="width: 100">
+    <div class="badge psiquico text-wrap" style="width: 100">
       Psiquico
     </div>
-    <div class="badge bg-secondary text-wrap" style="width: 100">
+    <div class="badge volador text-wrap" style="width: 100">
       volador
     </div>
-    <div class="badge bg-primary text-wrap" style="width: 100">
+    <div class="badge hielo text-wrap" style="width: 100">
       Hielo
     </div>
        </main>
     <main class="container mb-4">
-      <section class="bg-secondary border rounded rounded-5 p-4 text-light">
+      <section class="evolucionBgPlanta border rounded rounded-5 p-4 text-light">
         <h3 class="fs-5 fw-bold">Evoluciones</h3>
         <article>
           <ul class="d-flex flex-row justify-content-around Columnbulbasmall">
             <li class="text-center">
-              <img class="img-fluid" src="../img/bulbasaur.png" alt="Bulba1" />
-
+              <div class="border border-white rounded-circle border-5">
+                <img
+                  class="img-fluid"
+                  src="../img/bulbasaur.png"
+                  alt="Bulba1"
+                />
+              </div>
               <p class="mb-0"><strong>Bulbasaur</strong> N.º001</p>
               <button class="btn btn-outline leftbutton mb-5 mt-0 fsButton">
                 <p class="txtbutton">Planta</p>
@@ -128,9 +134,20 @@
                 <p class="txtbutton">Veneno</p>
               </button>
             </li>
+            <li class="row align-items-center">
+              <h2 class="fs-1 text-light lg">
+                <i class="bi bi-chevron-double-right"></i>
+              </h2>
+            </li>
             <li class="text-center">
-              <img class="img-fluid" src="../img/ivysaur.png" alt="Bulba2" />
-              <p class="mb-0"><strong>Ivisaur</strong> N.º002</p>
+              <div class="border border-white rounded-circle border-5">
+                <img
+                  class="img-fluid"
+                  src="../img/ivysaur.png"
+                  alt="Bulba1"
+                />
+              </div>
+              <p class="mb-0"><strong>Ivysaur</strong> N.º002</p>
               <button class="btn btn-outline leftbutton mb-5 mt-0 fsButton">
                 <p class="txtbutton">Planta</p>
               </button>
@@ -138,8 +155,19 @@
                 <p class="txtbutton">Veneno</p>
               </button>
             </li>
+            <li class="row align-items-center">
+              <h2 class="fs-1 text-light lg">
+                <i class="bi bi-chevron-double-right"></i>
+              </h2>
+            </li>
             <li class="text-center">
-              <img class="img-fluid" src="../img/venusaur.png" alt="Bulba3" />
+              <div class="border border-white rounded-circle border-5">
+                <img
+                  class="img-fluid"
+                  src="../img/venusaur.png"
+                  alt="Bulba1"
+                />
+              </div>
               <p class="mb-0"><strong>Venusaur</strong> N.º003</p>
               <button class="btn btn-outline leftbutton mb-5 mt-0 fsButton">
                 <p class="txtbutton">Planta</p>

@@ -32,8 +32,8 @@ navbar li {
   --tierra-dark: #927d44;
   --volador-light: #a890f0;
   --volador-dark: #6d5e9c;
-  --pisquico-light: #f85888;
-  --pisquico-dark: #a13959;
+  --psiquico-light: #f85888;
+  --psiquico-dark: #a13959;
   --bicho-light: #a8b820;
   --bicho-dark: #6d7815;
   --roca-light: #b8a038;
@@ -322,12 +322,22 @@ li {
   
 } 
 
-.evolucionBg{
-background-color: #e5e5f7;
-background: repeating-linear-gradient( -45deg, #606068, #4f4f57 5px, #38383d 5px, #2d2d33 25px );
+.evolucionBgFuego{
+background-color: var(--fuego-light);
+background: repeating-linear-gradient( -45deg, var(--fuego-light), var(--fuego-dark) 5px, var(--fuego-dark) 5px, var(--fuego-dark) 25px );
 }
-.detalleBg{
-  background-color: #55a6a4;
-  background-image: radial-gradient(circle at center center, #4bd2ff, #55a6a4), repeating-radial-gradient(circle at center center, #4bd2ff, #4bd2ff, 4px, transparent 8px, transparent 4px);
+.detalleBgFuego{
+  background-color: var(--fuego-light);
+  background-image: radial-gradient(circle at center center, #e5e5f7, var(--fuego-dark)), repeating-radial-gradient(circle at center center, #e5e5f7, #e5e5f7, 4px, transparent 8px, transparent 4px);
+  background-blend-mode: multiply;
+}
+
+.evolucionBgPlanta{
+background-color: var(--planta-light);
+background: repeating-linear-gradient( -45deg, var(--planta-light), var(--planta-dark) 5px, var(--veneno-dark) 5px, var(--planta-dark) 25px );
+}
+.detalleBgPlanta{
+  background-color: var(--planta-light);
+  background-image: radial-gradient(circle at center center, #e5e5f7, var(--planta-dark)), repeating-radial-gradient(circle at center center, #e5e5f7, #e5e5f7, 4px, transparent 8px, transparent 4px);
   background-blend-mode: multiply;
 }
